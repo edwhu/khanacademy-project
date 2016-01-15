@@ -13,6 +13,8 @@ app.use(bodyParser.urlencoded({
 
 app.post('/api', function(req, res) {
   var data = req.body.data.toString().trim();
+  //change the condition object to your liking! Default condition should be
+  //{whitelist:[], blacklist:[], structure: []}
   main.parse(data, {
       whitelist: ['WhileStatement'],
       blacklist: ['ForStatement'],
