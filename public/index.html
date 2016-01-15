@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Code Editor</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="lib/codemirror.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/monokai.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./lib/codemirror.js"></script>
+  <script src="./lib/javascript.js"></script>
+
+</head>
+
+<body>
+  <div class='container'>
+    <div class='jumbotron'>
+      <h1>Genghis Khan's Text Editor</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 img-rounded" style="border:2px solid #000000">
+      <textarea id='hola' action='foo()' rows='25' cols='75' >
+      </textarea>
+      <div class='center'>
+        <input class="btn btn-primary" id='but' type='submit' value="Submit" />
+      </div>
+    </div>
+    <div class="col-md-6" style="border:2px solid #73AD21">
+      <h1>Testing Area</h2>
+          <table class='table'>
+            <thead>
+            <tr>
+              <th>Test Conditions</th>
+              <th>Your Code's Results</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Whitelist: WhileStatement</td>
+              <td id='whitelist'></td>
+            </tr>
+            <tr>
+              <td>Blacklist: ForStatement</td>
+              <td id='blacklist'></td>
+            </tr>
+            <tr>
+              <td>Structure: while statement with an if statement inside</td>
+              <td id='structure'></td>
+            </tr>
+          </tbody>
+          </table>
+          <textarea rows='25' cols='50' id='tree'></textarea>
+    </div>
+  </div>
+</body>
+  <script src="./lib/bootstrap.js" ></script>
+
+</html>

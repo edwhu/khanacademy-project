@@ -1,0 +1,16 @@
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.jumbotron {
+  text-align: center;
+}
+
+#hola {
+  text-align: left;
+}
+#but {
+  
+}
