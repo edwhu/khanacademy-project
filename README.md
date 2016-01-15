@@ -1,9 +1,4 @@
 <h1>Code Editor and Tester</h1>
-<ul>
-  <li>non blocking processing due to callback nature of node</li>
-  <li>functional approach to this code challenge</li>
-  <li>use of esprima in server backend instead of browser minimizes compatibility issues</li>
-</ul>
 <br>Powered by Node.js
 #Installation
 Download and run npm init. After installation of depedencies, run 'node index.js' on the CLI.
@@ -30,3 +25,7 @@ function(results){
   });
 //outputs 1,0,true
 ```
+#Things to do in the future
+Bundle + minify js files and css files with webpack
+Maybe a React component for displaying the Test Info
+Use ES6
