@@ -26,6 +26,8 @@ function(results){
 //outputs 1,0,true
 ```
 #Things to do in the future
-Bundle + minify js files and css files with webpack
-Maybe a React component for displaying the Test Info
-Use ES6
+<ul>
+  <li>Bundle + minify js files and css files with webpack</li>
+  <li>Maybe a React component for displaying the Test Info</li>
+  <li>Use ES6</li>
+</ul>
