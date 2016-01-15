@@ -5,7 +5,8 @@
   <li>use of esprima in server backend instead of browser minimizes compatibility issues</li>
 </ul>
 <br>Powered by Node.js
-
+#Installation
+Download and run npm init. After installation of depedencies, run 'node index.js' on the CLI.
 #Parse function
 Processes and delivers results of code in a callback. Returns number of code structures in whitelist,
 number of code structures in blacklist, and if code has structures identical to a given structure.
