@@ -28,6 +28,7 @@ function(results){
 #Things to do in the future
 <ul>
   <li>Bundle + minify js files and css files with webpack</li>
+  <li>Make the front end look pretty</li>
   <li>Maybe a React component for displaying the Test Info</li>
   <li>Use ES6</li>
 </ul>
