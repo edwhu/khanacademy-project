@@ -18,26 +18,26 @@ app.post('/api', function(req, res) {
       blacklist: ['ForStatement'],
       structure: [
         [{
-          outer: 'WhileStatement',
+          type: 'WhileStatement',
           level: 1
         }, {
-          outer: 'Literal',
+          type: 'Literal',
           level: 2
         }, {
-          outer: 'BlockStatement',
+          type: 'BlockStatement',
           level: 2
         }, {
-          outer: 'IfStatement',
+          type: 'IfStatement',
           level: 3
         }, {
-          outer: 'Literal',
+          type: 'Literal',
           level: 4
         }, {
-          outer: 'BlockStatement',
+          type: 'BlockStatement',
           level: 4
         }],
         [{
-          outer: 'EmptyStatement',
+          type: 'EmptyStatement',
           level: 1
         }]
       ]

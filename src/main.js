@@ -31,7 +31,7 @@ function parse(string, conditions, callback) {
     //if it has a title key, we need to check it and update the results
     if (obj.type) {
       current.push({
-        outer: obj.type,
+        type: obj.type,
         level: level
       });
       //either we make a new key or add it into the current structure
