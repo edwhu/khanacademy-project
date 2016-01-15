@@ -1,5 +1,5 @@
 var esprima = require('esprima');
-var acorn = require('acorn')
+var acorn = require('acorn');
 var _ = require('lodash');
 //acorn and esprima are exchangable. I chose to use esprima.
 
