@@ -6,7 +6,6 @@
 </ul>
 <br>Powered by Node.js
 
-Core API:
 #Parse function
 Processes and delivers results of code in a callback. Returns number of code structures in whitelist,
 number of code structures in blacklist, and if code has structures identical to a given structure.
