@@ -1,7 +1,7 @@
 <h1>Code Editor and Tester</h1>
 <br>Powered by Node.js
 #Installation
-Download and run npm init. After installation of dependencies, run 'node index.js' on the CLI.
+Download and run npm install. After installation of dependencies, run 'node index.js' on the CLI.
 By default, the server already has loaded whitelist, blacklist, and conditions running to demonstrate its
 capability. To change these, go into index.js and look in the 'Post' routing code.
 #Parse function
